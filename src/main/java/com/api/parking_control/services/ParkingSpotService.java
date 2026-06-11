@@ -47,7 +47,7 @@ public class ParkingSpotService {
 
 	@Transactional
 	public void delete(ParkingSpotModel parkingSpotModel) {
-		return parkingSpotRepository.delete(parkingSpotModel);
+		parkingSpotRepository.delete(parkingSpotModel);
 	}
 	
 	
